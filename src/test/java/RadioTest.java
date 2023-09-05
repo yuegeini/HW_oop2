@@ -6,6 +6,23 @@ class RadioTest {
 
 
     @Test
+    void newNext() {
+        Radio radio = new Radio(30);
+        radio.next();
+        int expected = 1;
+        int actual = radio.can;
+        Assertions.assertEquals(actual, expected);
+    }
+    @Test
+    void newPrev() {
+        Radio radio = new Radio(30);
+        radio.prev();
+        int expected = 29;
+        int actual = radio.can;
+        Assertions.assertEquals(actual, expected);
+    }
+
+    @Test
     void next0() {
         Radio radio = new Radio();
         radio.next();
