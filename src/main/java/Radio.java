@@ -1,8 +1,21 @@
 public class Radio {
-    public int volume;
-    public int can;
+    private int volume;
+    private int can;
 
-    public int maxCan;
+    private int maxCan;
+
+    public void setVolume(int vol) {
+        volume = vol;
+    }
+    public void setCan(int cann) {
+        can = cann;
+    }
+    public int getVolume() {
+        return volume;
+    }
+    public int getCan() {
+        return can;
+    }
 
 
     public Radio() {
