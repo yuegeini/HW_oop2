@@ -29,11 +29,11 @@ public class Radio {
         can = 0;
     }
 
-    public Radio(int vol, int c) {
-        volume = vol;
-        can = c;
-        maxCan = 10;
-    }
+//    public Radio(int vol, int c) {
+//        volume = vol;
+//        can = c;
+//        maxCan = 10;
+//    }
 
     public void up() {
         if(volume < 100) volume++;
