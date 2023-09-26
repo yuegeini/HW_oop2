@@ -85,6 +85,7 @@ class RadioTest {
         int actual = radio.getVolume();
         Assertions.assertEquals(actual, expected);
     }
+
     @Test
     void newNext() {
         Radio radio = new Radio(30);
