@@ -15,20 +15,20 @@ public class Radio {
         can = 0;
     }
 
-    public void setVolume(int vol) {
-        volume = vol;
-    }
-
-    public void setCan(int cann) {
-        can = cann;
-    }
-
     public int getVolume() {
         return volume;
     }
 
     public int getCan() {
         return can;
+    }
+
+    public void setVolume(int vol) {
+        volume = vol;
+    }
+
+    public void setCan(int cann) {
+        can = cann;
     }
 
 
