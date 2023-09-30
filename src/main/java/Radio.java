@@ -9,8 +9,8 @@ public class Radio {
         maxCan = 10;
     }
 
-    public Radio(int max_can) {
-        maxCan = max_can;
+    public Radio(int maxCan) {
+        this.maxCan = maxCan;
         volume = 0;
         can = 0;
     }
